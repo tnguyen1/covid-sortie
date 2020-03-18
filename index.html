@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Attestation de déplacement</title>
+    <title>Attestation de d&eacute;placement</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 <body>
@@ -12,7 +12,7 @@
     body {
         width: 210mm;
         margin: 1em auto;
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     button {font-size: 2em; border: 1px solid black;}
@@ -33,7 +33,7 @@
     }
 
     #name, #born, #address {
-        width: 10em;
+        width: 30em;
         border: 1px solid #999;
     }
 
@@ -60,54 +60,54 @@
 
 <div id='page'>
 
-<center><h1>ATTESTATION DE DÉPLACEMENT DÉROGATOIRE</h1></center>
+<center><h2>ATTESTATION DE D&#xC9;PLACEMENT D&#xC9;ROGATOIRE</h2></center>
 
-<p>En application de l'article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19 :</p>
+<p>En application de l'article 1er du d&eacute;cret du 16 mars 2020 portant r&eacute;glementation des d&eacute;placements dans le cadre de la lutte contre la propagation du virus Covid-19 :</p>
 
 
 <form>
-    <p><b>Je soussigné(e)</b></p>
+    <p><b>Je soussign&eacute;(e)</b></p>
     <br/>
     <label class="lbl" for="name"><b>Mme / M.</b></label>
     <input id="name" type="text"><br/>
 
-    <label class="lbl" for="born"><b>Né(e) le :</b></label>
-    <input id="born" type="date"><br/>
+    <label class="lbl" for="born"><b>N&eacute;(e) le :</b></label>
+    <input id="born" type="text"><br/>
 
     <label class="lbl" for="address"><b>Demeurant :</b></label>
     <input id="address" type="text"><br/>
 
     <br/>
-    <p>certifie que mon déplacement est lié au motif suivant (cocher la case) autorisé par l'article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19:</p>
+    <p>certifie que mon d&eacute;placement est li&eacute; au motif suivant (cocher la case) autoris&eacute; par l'article 1er du d&eacute;cret du 16 mars 2020 portant r&eacute;glementation des d&eacute;placements dans le cadre de la lutte contre la propagation du virus Covid-19:</p>
     <br/>
     <p>
-        <input id="choix_a" type="radio" name="choix">
-        <label for="choix_a" id="label_choix_a">déplacements entre le domicile et le lieu d'exercice de l'activité professionnelle, lorsqu'ils sont indispensables à l'exercice d'activités ne pouvant être organisées sous forme de télétravail (sur justificatif permanent) ou déplacements professionnels ne pouvant être différés;</label>
+        <input id="choix_a" type="checkbox" name="choix">
+        <label for="choix_a" id="label_choix_a">d&eacute;placements entre le domicile et le lieu d'exercice de l'activit&eacute; professionnelle, lorsqu'ils sont indispensables &agrave; l'exercice d'activit&eacute;s ne pouvant &#xEA;tre organis&eacute;es sous forme de t&eacute;l&eacute;travail (sur justificatif permanent) ou d&eacute;placements professionnels ne pouvant &#xEA;tre diff&eacute;r&eacute;s;</label>
     </p>
 
     <p>
-        <input id="choix_b" type="radio" name="choix">
-        <label for="choix_b" id="label_choix_b">déplacements pour effectuer des achats de première nécessité dans des établissements autorisés (liste sur gouvernement.fr);</label>
+        <input id="choix_b" type="checkbox" name="choix">
+        <label for="choix_b" id="label_choix_b">d&eacute;placements pour effectuer des achats de premi&egrave;re n&eacute;cessit&eacute; dans des &eacute;tablissements autoris&eacute;s (liste sur gouvernement.fr);</label>
     </p>
 
     <p>
-        <input id="choix_c" type="radio" name="choix">
-        <label for="choix_c" id="label_choix_c">déplacements pour motif de santé;</label>
+        <input id="choix_c" type="checkbox" name="choix">
+        <label for="choix_c" id="label_choix_c">d&eacute;placements pour motif de sant&eacute;;</label>
     </p>
 
     <p>
-        <input id="choix_d" type="radio" name="choix">
-        <label for="choix_d" id="label_choix_d">déplacements pour motif familial impérieux, pour l'assistance aux personnes vulnérables ou la garde d'enfants;</label>
+        <input id="choix_d" type="checkbox" name="choix">
+        <label for="choix_d" id="label_choix_d">d&eacute;placements pour motif familial imp&eacute;rieux, pour l'assistance aux personnes vuln&eacute;rables ou la garde d'enfants;</label>
     </p>
 
     <p>
-        <input id="choix_e" type="radio" name="choix">
-        <label for="choix_e" id="label_choix_e">déplacements brefs, à proximité du domicile, liés à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective, et aux besoins des animaux de compagnie.</label>
+        <input id="choix_e" type="checkbox" name="choix">
+        <label for="choix_e" id="label_choix_e">d&eacute;placements brefs, &agrave; proximit&eacute; du domicile, li&eacute;s &agrave; l'activit&eacute; physique individuelle des personnes, &agrave; l'exclusion de toute pratique sportive collective, et aux besoins des animaux de compagnie.</label>
     </p>
 
     <p align="right">
-        <label for="place">Fait à </label><input type="text" id="place">
-        <label for="date">le </label><input type="date" id="date"><br>
+        <label for="place">Fait &agrave; </label><input type="text" id="place">
+        <label for="date">le </label><input type="text" id="date"><br>
         (signature)<br/>
         <canvas style="border: 1px solid #999" id="signature" width="600" height="200"></canvas><br/>
         <button onclick="can_clear();" id="clear_btn">Effacer</button>
@@ -116,23 +116,22 @@
 
 </form>
 
-<center><button onclick="render();" id="render_btn">Génerer</button></center><br/>
-<center><button onclick="window.location.reload();" id="reset_btn">Remise à zéro</button></center>
+<center><button onclick="render();" id="render_btn">G&eacute;n&eacute;rer</button></center><br/>
+<center><button onclick="window.location.reload();" id="reset_btn">Remise &agrave; z&eacute;ro</button></center>
 
 </div>
 
-<center><footer>Conforme RGPD, certifié sans stockage et sans cookies. code dispo sur <a href="https://github.com/vikbez/covid-sortie">https://github.com/vikbez/covid-sortie</a></footer></center>
+<center><footer>Conforme RGPD, certifi&eacute; sans stockage et sans cookies. code dispo sur <a href="https://github.com/vikbez/covid-sortie">https://github.com/vikbez/covid-sortie</a></footer></center>
 
 <script type="text/javascript">
 
     function $(id) { return document.getElementById(id); }
-    var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
-    if (is_safari) {
-        $('date').value = new Date().toLocaleDateString();
-    } else {
-        $('date').valueAsDate = new Date();
-    }
+    // Format current date
+    function appendLeadingZeroes(n) { if(n <= 9) { return "0" + n; } return n; }
+    let current_datetime = new Date()
+    let formatted_date = appendLeadingZeroes(current_datetime.getDate()) + "/" + appendLeadingZeroes(current_datetime.getMonth() + 1) + "/" + current_datetime.getFullYear()
+    $('date').value = formatted_date;
 
     // CANVAS HANDLING
 
@@ -211,14 +210,6 @@
         to_render.forEach(function(el) {
             $(el).insertAdjacentHTML('afterend', $(el).value);
             $(el).remove();
-        });
-
-        to_disable = ['choix_a', 'choix_b', 'choix_c', 'choix_d', 'choix_e'];
-        to_disable.forEach(function(el) {
-            if (!$(el).checked) {
-                $(el).remove();
-                $('label_' + el).remove();
-            }
         });
 
         window.print();
